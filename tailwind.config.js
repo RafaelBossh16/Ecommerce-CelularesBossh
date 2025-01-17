@@ -5,13 +5,13 @@ export default {
     extend: {
       container: {
         center: true,
-        padding: '1rem',
+        padding: "1rem"
       },
 
       fontFamily: {
-        montserrat: ['Montserrat', 'sans-serif'],
+        montserrat: ["Montserrat", "sans-serif"]
       }
-    },
+    }
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
